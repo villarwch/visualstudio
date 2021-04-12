@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:2736",
+      //   "sslPort": 44361
+      "sslPort": 0
+
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/LibroMaterial",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "TiendaServicio.Api.Libro": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/LibroMaterial",
+      "applicationUrl": "https://localhost:64803;http://localhost:23305",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
