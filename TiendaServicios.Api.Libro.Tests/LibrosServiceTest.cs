@@ -97,7 +97,10 @@ namespace TiendaServicios.Api.Libro.Tests
         public async void GetLibros()
         {
 
-            System.Diagnostics.Debugger.Launch();
+            //System.Diagnostics.Debugger.Launch();
+            //este test es de unitLibro
+
+
             //Que metodo dentro de mi microservice libro se esta encargajdo
             //de realizar consulta de libros en la bd?
             // 1.- emular instancia de entity fw core - contextolibreria
